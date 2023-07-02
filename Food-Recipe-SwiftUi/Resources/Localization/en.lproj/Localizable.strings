@@ -1,0 +1,12 @@
+/* 
+  Localizable.strings
+  Food-Recipe-SwiftUi
+
+  Created by Ahmed Yamany on 02/07/2023.
+  
+*/
+
+"splash.title" = "100K+ Premium Recipe";
+"splash.headerTitle" = "Get Cookies";
+"splash.headerCaption" = "Simple way to find Tasty Recipe";
+

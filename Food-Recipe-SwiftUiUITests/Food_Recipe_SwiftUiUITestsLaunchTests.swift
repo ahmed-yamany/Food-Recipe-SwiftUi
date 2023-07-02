@@ -7,7 +7,7 @@
 
 import XCTest
 
-final class Food_Recipe_SwiftUiUITestsLaunchTests: XCTestCase {
+final class FoodRecipeSwiftUiUITestsLaunchTests: XCTestCase {
 
     override class var runsForEachTargetApplicationUIConfiguration: Bool {
         true

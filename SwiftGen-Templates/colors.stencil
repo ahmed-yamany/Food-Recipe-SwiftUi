@@ -1,0 +1,13 @@
+import SwiftUI
+
+// this is automatic generated file please don't edit it 🗡️
+// MARK: - Colors
+
+extension Color {
+  {% for color in catalogs.first.assets %}
+
+    static var {{color.name|swiftIdentifier:"pretty"|lowerFirstWord|escapeReservedKeywords}}: Color {
+     	Color("{{ color.name }}")
+    }
+  {% endfor %}
+}
