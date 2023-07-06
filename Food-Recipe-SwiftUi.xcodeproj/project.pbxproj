@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		EE0418A72A56D266000151A0 /* TextField+.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE0418A62A56D266000151A0 /* TextField+.swift */; };
+		EE41EF982A5453C9007EF832 /* Button+.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE41EF972A5453C9007EF832 /* Button+.swift */; };
+		EE41EF9B2A545B11007EF832 /* LoginRegisterView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE41EF9A2A545B11007EF832 /* LoginRegisterView.swift */; };
 		EE4BCF902A517C6E00575C70 /* .swiftlint.yml in Resources */ = {isa = PBXBuildFile; fileRef = EE4BCF8F2A517C6E00575C70 /* .swiftlint.yml */; };
 		EEB896242A51A4B7009A7960 /* Poppins-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = EEB896222A51A4B7009A7960 /* Poppins-Bold.ttf */; };
 		EEB896252A51A4B7009A7960 /* Poppins-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = EEB896232A51A4B7009A7960 /* Poppins-Regular.ttf */; };
@@ -23,6 +26,7 @@
 		EEF680682A50238C00F43C4F /* Food_Recipe_SwiftUiTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EEF680672A50238C00F43C4F /* Food_Recipe_SwiftUiTests.swift */; };
 		EEF680722A50238C00F43C4F /* Food_Recipe_SwiftUiUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EEF680712A50238C00F43C4F /* Food_Recipe_SwiftUiUITests.swift */; };
 		EEF680742A50238C00F43C4F /* Food_Recipe_SwiftUiUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EEF680732A50238C00F43C4F /* Food_Recipe_SwiftUiUITestsLaunchTests.swift */; };
+		EEF9A3642A5460E2007A9E64 /* LoginRegisterViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = EEF9A3632A5460E2007A9E64 /* LoginRegisterViewModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -43,6 +47,9 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		EE0418A62A56D266000151A0 /* TextField+.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "TextField+.swift"; sourceTree = "<group>"; };
+		EE41EF972A5453C9007EF832 /* Button+.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Button+.swift"; sourceTree = "<group>"; };
+		EE41EF9A2A545B11007EF832 /* LoginRegisterView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginRegisterView.swift; sourceTree = "<group>"; };
 		EE4BCF8F2A517C6E00575C70 /* .swiftlint.yml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.yaml; path = .swiftlint.yml; sourceTree = "<group>"; };
 		EEB896222A51A4B7009A7960 /* Poppins-Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Poppins-Bold.ttf"; sourceTree = "<group>"; };
 		EEB896232A51A4B7009A7960 /* Poppins-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Poppins-Regular.ttf"; sourceTree = "<group>"; };
@@ -63,6 +70,7 @@
 		EEF6806D2A50238C00F43C4F /* Food-Recipe-SwiftUiUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Food-Recipe-SwiftUiUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		EEF680712A50238C00F43C4F /* Food_Recipe_SwiftUiUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Food_Recipe_SwiftUiUITests.swift; sourceTree = "<group>"; };
 		EEF680732A50238C00F43C4F /* Food_Recipe_SwiftUiUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Food_Recipe_SwiftUiUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		EEF9A3632A5460E2007A9E64 /* LoginRegisterViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginRegisterViewModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -90,6 +98,32 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		EE41EF952A5453AA007EF832 /* Modules */ = {
+			isa = PBXGroup;
+			children = (
+				EED1E6B92A51CA1D00A53D52 /* Onboarding */,
+			);
+			path = Modules;
+			sourceTree = "<group>";
+		};
+		EE41EF962A5453BA007EF832 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				EE41EF972A5453C9007EF832 /* Button+.swift */,
+				EE0418A62A56D266000151A0 /* TextField+.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		EE41EF992A545AFE007EF832 /* Login */ = {
+			isa = PBXGroup;
+			children = (
+				EE41EF9A2A545B11007EF832 /* LoginRegisterView.swift */,
+				EEF9A3632A5460E2007A9E64 /* LoginRegisterViewModel.swift */,
+			);
+			path = Login;
+			sourceTree = "<group>";
+		};
 		EEB896212A51A4B0009A7960 /* Fonts */ = {
 			isa = PBXGroup;
 			children = (
@@ -103,7 +137,8 @@
 		EEB8962B2A51A9CF009A7960 /* App */ = {
 			isa = PBXGroup;
 			children = (
-				EED1E6B92A51CA1D00A53D52 /* Onboarding */,
+				EE41EF962A5453BA007EF832 /* Extensions */,
+				EE41EF952A5453AA007EF832 /* Modules */,
 			);
 			path = App;
 			sourceTree = "<group>";
@@ -134,6 +169,7 @@
 			isa = PBXGroup;
 			children = (
 				EED1E6BA2A51CA3100A53D52 /* SplashView.swift */,
+				EE41EF992A545AFE007EF832 /* Login */,
 			);
 			path = Onboarding;
 			sourceTree = "<group>";
@@ -360,6 +396,10 @@
 				EEF154BC2A519A98007A3641 /* UIColors.Generated.swift in Sources */,
 				EEF680572A50238B00F43C4F /* Food_Recipe_SwiftUiApp.swift in Sources */,
 				EED1E6BB2A51CA3100A53D52 /* SplashView.swift in Sources */,
+				EE41EF9B2A545B11007EF832 /* LoginRegisterView.swift in Sources */,
+				EE0418A72A56D266000151A0 /* TextField+.swift in Sources */,
+				EE41EF982A5453C9007EF832 /* Button+.swift in Sources */,
+				EEF9A3642A5460E2007A9E64 /* LoginRegisterViewModel.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

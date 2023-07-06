@@ -10,8 +10,7 @@ extension Color {
     }
 
     static var primary: Color {
-//     	Color("primary")
-        Color("primary")
+     	Color("primary")
     }
 
     static var primaryButtonTitle: Color {

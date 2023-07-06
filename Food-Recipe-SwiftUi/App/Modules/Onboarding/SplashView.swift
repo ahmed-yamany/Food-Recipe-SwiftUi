@@ -8,9 +8,11 @@
 import SwiftUI
 
 struct SplashView: View {
+    @State private var showLoginView: Bool = false
     var body: some View {
         Image(String.images.backgroundSplash)
             .resizable()
+            .ignoresSafeArea()
             .overlay {
                 VStack {
                     VStack {
@@ -27,27 +29,30 @@ struct SplashView: View {
                         Text(L10n.Splash.headerTitle)
                             .lineLimit(2)
                             .font(.titleBold)
-                            .padding(.horizontal, 50)
                             .padding(.bottom, 12)
+                            .multilineTextAlignment(.center)
 
                         Text(L10n.Splash.headerCaption)
-                            .font(.normalRegular)
+                            .font(.mediumBold)
                             .padding(.bottom, 36)
 
                         Button("Start Cooking") {
-
+                            withAnimation {
+                                showLoginView = true
+                            }
                         }
-                        .frame(width: 315, height: 60)
-                        .background(Color.primary)
-                        .cornerRadius(10)
+                        .applyStyle(.primary)
+                        .padding(.horizontal, 16)
                     }
                     .padding(.bottom, 96)
+                    .padding(.horizontal, 50)
 
                 }
                 .foregroundColor(.primaryButtonTitle)
             }
-            .ignoresSafeArea(.all)
-
+            .fullScreenCover(isPresented: $showLoginView) {
+                LoginRegisterView()
+            }
     }
 }
 

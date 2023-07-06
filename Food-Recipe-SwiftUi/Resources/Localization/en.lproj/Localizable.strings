@@ -5,8 +5,33 @@
   Created by Ahmed Yamany on 02/07/2023.
   
 */
-
+// MARK: - Splash
 "splash.title" = "100K+ Premium Recipe";
 "splash.headerTitle" = "Get Cookies";
 "splash.headerCaption" = "Simple way to find Tasty Recipe";
+
+// MARK: - Login
+"login.headerTitle" = "Hello";
+"login.headerCaption" = "Welcome Back!";
+"login.email" = "Email";
+"login.emailTextField" = "Enter Email";
+"login.password" = "Enter Password";
+"login.passwordTextField" = "Enter Password";
+"login.forgotPassword" = "Forgot Password";
+"login.button" = "Sign in";
+"login.signup" = "Don’t have an account?";
+
+// MARK: - Sign Up
+"signup.headerTitle" = "Create an account";
+"signup.headerCaption" = "Let’s help you set up your account, it won’t take long.";
+"signup.name" = "Name";
+"signup.nameTextField" = "Enter Name";
+"signup.password" = "Password";
+"signup.passwordTextField" = "Enter Password";
+"signup.confirmPassword" = "Confirm Password";
+"signup.confirmPasswordTextField" = "Retype Password";
+"signup.termsAndConditions" = "Accept terms & Condition";
+"signup.button" = "Sign up";
+"signup.signin" = "Already a member?";
+
 

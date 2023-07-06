@@ -10,6 +10,12 @@ extension String {
             var backgroundSplash: String {
                 "background-splash"
             }
+            var facebook: String {
+                "facebook"
+            }
+            var google: String {
+                "google"
+            }
             var iconSplash: String {
                 "icon-splash"
             }
