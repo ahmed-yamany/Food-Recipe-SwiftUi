@@ -84,9 +84,9 @@ private extension Font {
     static func poppinsFontName(forWeight weight: UIFont.Weight) -> String {
         switch weight {
         case .bold:
-            return "Poppins-Bold"
+            return "Poppins"
         default:
-            return "Poppins-Regular"
+            return "Poppins"
         }
     }
 }

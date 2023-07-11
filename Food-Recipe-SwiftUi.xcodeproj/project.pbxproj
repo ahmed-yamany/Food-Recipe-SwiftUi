@@ -8,6 +8,8 @@
 
 /* Begin PBXBuildFile section */
 		EE0418A72A56D266000151A0 /* TextField+.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE0418A62A56D266000151A0 /* TextField+.swift */; };
+		EE28BA942A5D7C310061FB26 /* MainTabView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE28BA932A5D7C310061FB26 /* MainTabView.swift */; };
+		EE28BA972A5D94C90061FB26 /* TabBarCurveShape.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE28BA962A5D94C90061FB26 /* TabBarCurveShape.swift */; };
 		EE41EF982A5453C9007EF832 /* Button+.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE41EF972A5453C9007EF832 /* Button+.swift */; };
 		EE41EF9B2A545B11007EF832 /* LoginRegisterView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE41EF9A2A545B11007EF832 /* LoginRegisterView.swift */; };
 		EE4BCF902A517C6E00575C70 /* .swiftlint.yml in Resources */ = {isa = PBXBuildFile; fileRef = EE4BCF8F2A517C6E00575C70 /* .swiftlint.yml */; };
@@ -48,6 +50,8 @@
 
 /* Begin PBXFileReference section */
 		EE0418A62A56D266000151A0 /* TextField+.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "TextField+.swift"; sourceTree = "<group>"; };
+		EE28BA932A5D7C310061FB26 /* MainTabView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainTabView.swift; sourceTree = "<group>"; };
+		EE28BA962A5D94C90061FB26 /* TabBarCurveShape.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabBarCurveShape.swift; sourceTree = "<group>"; };
 		EE41EF972A5453C9007EF832 /* Button+.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Button+.swift"; sourceTree = "<group>"; };
 		EE41EF9A2A545B11007EF832 /* LoginRegisterView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginRegisterView.swift; sourceTree = "<group>"; };
 		EE4BCF8F2A517C6E00575C70 /* .swiftlint.yml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.yaml; path = .swiftlint.yml; sourceTree = "<group>"; };
@@ -98,10 +102,27 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		EE28BA922A5D7C100061FB26 /* MainTabView */ = {
+			isa = PBXGroup;
+			children = (
+				EE28BA932A5D7C310061FB26 /* MainTabView.swift */,
+			);
+			path = MainTabView;
+			sourceTree = "<group>";
+		};
+		EE28BA952A5D94BA0061FB26 /* ReusableViews */ = {
+			isa = PBXGroup;
+			children = (
+				EE28BA962A5D94C90061FB26 /* TabBarCurveShape.swift */,
+			);
+			path = ReusableViews;
+			sourceTree = "<group>";
+		};
 		EE41EF952A5453AA007EF832 /* Modules */ = {
 			isa = PBXGroup;
 			children = (
 				EED1E6B92A51CA1D00A53D52 /* Onboarding */,
+				EE28BA922A5D7C100061FB26 /* MainTabView */,
 			);
 			path = Modules;
 			sourceTree = "<group>";
@@ -137,6 +158,7 @@
 		EEB8962B2A51A9CF009A7960 /* App */ = {
 			isa = PBXGroup;
 			children = (
+				EE28BA952A5D94BA0061FB26 /* ReusableViews */,
 				EE41EF962A5453BA007EF832 /* Extensions */,
 				EE41EF952A5453AA007EF832 /* Modules */,
 			);
@@ -395,7 +417,9 @@
 				EEF154BA2A519A8D007A3641 /* Strings+Generated.swift in Sources */,
 				EEF154BC2A519A98007A3641 /* UIColors.Generated.swift in Sources */,
 				EEF680572A50238B00F43C4F /* Food_Recipe_SwiftUiApp.swift in Sources */,
+				EE28BA942A5D7C310061FB26 /* MainTabView.swift in Sources */,
 				EED1E6BB2A51CA3100A53D52 /* SplashView.swift in Sources */,
+				EE28BA972A5D94C90061FB26 /* TabBarCurveShape.swift in Sources */,
 				EE41EF9B2A545B11007EF832 /* LoginRegisterView.swift in Sources */,
 				EE0418A72A56D266000151A0 /* TextField+.swift in Sources */,
 				EE41EF982A5453C9007EF832 /* Button+.swift in Sources */,

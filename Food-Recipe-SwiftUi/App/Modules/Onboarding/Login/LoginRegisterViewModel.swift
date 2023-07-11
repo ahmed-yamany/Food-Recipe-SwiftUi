@@ -16,5 +16,4 @@ class LoginRegisterViewModel: ObservableObject {
     // SignUp User
     @Published var signUpUser: Bool = false
     @Published var acceptTerms: Bool = false
-
 }

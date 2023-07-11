@@ -9,7 +9,7 @@ import SwiftUI
 
 struct LoginRegisterView: View {
     @ObservedObject var viewModel = LoginRegisterViewModel()
-
+    @State private var showMainTabView: Bool = false
     var body: some View {
         ScrollView(.vertical, showsIndicators: false) {
             VStack(alignment: .leading) {
@@ -59,7 +59,9 @@ struct LoginRegisterView: View {
 
                     /// Primary Button 
                     Button {
-
+                        withAnimation {
+                            showMainTabView = true
+                        }
                     } label: {
                         Text(viewModel.signUpUser ? L10n.Signup.button : L10n.Login.button)
                             .applyStyle(.primary)
@@ -114,6 +116,9 @@ struct LoginRegisterView: View {
         }
         .background(.background)
         .foregroundColor(.textColor)
+        .fullScreenCover(isPresented: $showMainTabView) {
+            MainTabView()
+        }
     }
 }
 

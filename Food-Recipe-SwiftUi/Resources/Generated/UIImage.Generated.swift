@@ -19,6 +19,18 @@ extension String {
             var iconSplash: String {
                 "icon-splash"
             }
+            var iconHome: String {
+                "iconHome"
+            }
+            var iconNotification: String {
+                "iconNotification"
+            }
+            var iconProfile: String {
+                "iconProfile"
+            }
+            var iconSaved: String {
+                "iconSaved"
+            }
     }
 }
 // swiftlint:enable all
