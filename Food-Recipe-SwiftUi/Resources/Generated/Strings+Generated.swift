@@ -10,6 +10,16 @@ import Foundation
 // swiftlint:disable explicit_type_interface function_parameter_count identifier_name line_length
 // swiftlint:disable nesting type_body_length type_name vertical_whitespace_opening_braces
 internal enum L10n {
+  internal enum Home {
+    /// What are you cooking today?
+    internal static let caption = L10n.tr("Localizable", "home.caption", fallback: "What are you cooking today?")
+    /// Hello
+    internal static let title = L10n.tr("Localizable", "home.title", fallback: "Hello")
+    internal enum Search {
+      /// Search recipe
+      internal static let placeholder = L10n.tr("Localizable", "home.search.placeholder", fallback: "Search recipe")
+    }
+  }
   internal enum Login {
     /// Sign in
     internal static let button = L10n.tr("Localizable", "login.button", fallback: "Sign in")

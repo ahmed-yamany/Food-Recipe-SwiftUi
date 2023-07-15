@@ -10,6 +10,11 @@ import SwiftUI
 struct LoginRegisterView: View {
     @ObservedObject var viewModel = LoginRegisterViewModel()
     @State private var showMainTabView: Bool = false
+    @FocusState private var nameIsFoucused: Bool
+    @FocusState private var emailIsFoucused: Bool
+    @FocusState private var passwordIsFoucused: Bool
+    @FocusState private var confirmPasswordIsFoucused: Bool
+
     var body: some View {
         ScrollView(.vertical, showsIndicators: false) {
             VStack(alignment: .leading) {
@@ -26,20 +31,26 @@ struct LoginRegisterView: View {
                     /// Name
                     if viewModel.signUpUser {
                         TextField(L10n.Signup.nameTextField, text: $viewModel.name)
-                            .applyStyle(.primary, title: L10n.Signup.name)
+                            .applyStyle(.primary, title: L10n.Signup.name, isFocused: nameIsFoucused)
+                            .focused($nameIsFoucused)
                     }
                     /// Email
                     TextField(L10n.Login.emailTextField, text: $viewModel.email)
-                        .applyStyle(.primary, title: L10n.Login.email)
+                        .applyStyle(.primary, title: L10n.Login.email, isFocused: emailIsFoucused)
+                        .focused($emailIsFoucused)
                     /// Password
                     TextField(viewModel.signUpUser ? L10n.Signup.passwordTextField : L10n.Login.passwordTextField,
                               text: $viewModel.password)
                     .applyStyle(.primary,
-                                title: viewModel.signUpUser ? L10n.Signup.password : L10n.Login.password)
+                                title: viewModel.signUpUser ? L10n.Signup.password : L10n.Login.password,
+                                isFocused: passwordIsFoucused)
+                    .focused($passwordIsFoucused)
                     /// Confirm Password
                     if viewModel.signUpUser {
                         TextField(L10n.Signup.confirmPasswordTextField, text: $viewModel.confirmPassword)
-                        .applyStyle(.primary, title: L10n.Signup.confirmPassword )
+                            .applyStyle(.primary, title: L10n.Signup.confirmPassword,
+                                        isFocused: confirmPasswordIsFoucused)
+                            .focused($confirmPasswordIsFoucused)
                         /// Accept Terms and conditions
                         HStack {
                             Image(systemName: viewModel.acceptTerms ? "checkmark.square" : "square")

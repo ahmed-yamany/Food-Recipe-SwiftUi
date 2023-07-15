@@ -34,4 +34,8 @@
 "signup.button" = "Sign up";
 "signup.signin" = "Already a member?";
 
+// MARK: - Home
+"home.title" = "Hello";
+"home.caption" = "What are you cooking today?";
+"home.search.placeholder" = "Search recipe";
 

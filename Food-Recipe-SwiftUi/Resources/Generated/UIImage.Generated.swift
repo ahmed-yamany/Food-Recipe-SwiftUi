@@ -7,11 +7,17 @@ import Foundation
 extension String {
     static var images: Images { Images() }
 	struct Images {
+            var avatar: String {
+                "avatar"
+            }
             var backgroundSplash: String {
                 "background-splash"
             }
             var facebook: String {
                 "facebook"
+            }
+            var filter: String {
+                "filter"
             }
             var google: String {
                 "google"
@@ -30,6 +36,12 @@ extension String {
             }
             var iconSaved: String {
                 "iconSaved"
+            }
+            var p1: String {
+                "p1"
+            }
+            var p2: String {
+                "p2"
             }
     }
 }

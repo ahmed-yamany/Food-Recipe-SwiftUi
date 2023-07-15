@@ -8,11 +8,16 @@
 
 /* Begin PBXBuildFile section */
 		EE0418A72A56D266000151A0 /* TextField+.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE0418A62A56D266000151A0 /* TextField+.swift */; };
+		EE049A712A5EF74A00B32D77 /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE049A702A5EF74A00B32D77 /* HomeView.swift */; };
+		EE19AEEC2A62A51E001F70D3 /* Recipe.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE19AEEB2A62A51E001F70D3 /* Recipe.swift */; };
+		EE19AEEF2A62A5C3001F70D3 /* DishesView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE19AEEE2A62A5C3001F70D3 /* DishesView.swift */; };
+		EE218A2F2A62AA21008AD497 /* Dish.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE218A2E2A62AA21008AD497 /* Dish.swift */; };
 		EE28BA942A5D7C310061FB26 /* MainTabView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE28BA932A5D7C310061FB26 /* MainTabView.swift */; };
 		EE28BA972A5D94C90061FB26 /* TabBarCurveShape.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE28BA962A5D94C90061FB26 /* TabBarCurveShape.swift */; };
 		EE41EF982A5453C9007EF832 /* Button+.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE41EF972A5453C9007EF832 /* Button+.swift */; };
 		EE41EF9B2A545B11007EF832 /* LoginRegisterView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE41EF9A2A545B11007EF832 /* LoginRegisterView.swift */; };
 		EE4BCF902A517C6E00575C70 /* .swiftlint.yml in Resources */ = {isa = PBXBuildFile; fileRef = EE4BCF8F2A517C6E00575C70 /* .swiftlint.yml */; };
+		EE53BAB62A62C3BA0054EE89 /* RecipesView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE53BAB52A62C3BA0054EE89 /* RecipesView.swift */; };
 		EEB896242A51A4B7009A7960 /* Poppins-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = EEB896222A51A4B7009A7960 /* Poppins-Bold.ttf */; };
 		EEB896252A51A4B7009A7960 /* Poppins-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = EEB896232A51A4B7009A7960 /* Poppins-Regular.ttf */; };
 		EEB896292A51A554009A7960 /* UIFont+Style.swift in Sources */ = {isa = PBXBuildFile; fileRef = EEB896282A51A554009A7960 /* UIFont+Style.swift */; };
@@ -50,11 +55,16 @@
 
 /* Begin PBXFileReference section */
 		EE0418A62A56D266000151A0 /* TextField+.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "TextField+.swift"; sourceTree = "<group>"; };
+		EE049A702A5EF74A00B32D77 /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
+		EE19AEEB2A62A51E001F70D3 /* Recipe.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Recipe.swift; sourceTree = "<group>"; };
+		EE19AEEE2A62A5C3001F70D3 /* DishesView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DishesView.swift; sourceTree = "<group>"; };
+		EE218A2E2A62AA21008AD497 /* Dish.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Dish.swift; sourceTree = "<group>"; };
 		EE28BA932A5D7C310061FB26 /* MainTabView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainTabView.swift; sourceTree = "<group>"; };
 		EE28BA962A5D94C90061FB26 /* TabBarCurveShape.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabBarCurveShape.swift; sourceTree = "<group>"; };
 		EE41EF972A5453C9007EF832 /* Button+.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Button+.swift"; sourceTree = "<group>"; };
 		EE41EF9A2A545B11007EF832 /* LoginRegisterView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginRegisterView.swift; sourceTree = "<group>"; };
 		EE4BCF8F2A517C6E00575C70 /* .swiftlint.yml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.yaml; path = .swiftlint.yml; sourceTree = "<group>"; };
+		EE53BAB52A62C3BA0054EE89 /* RecipesView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecipesView.swift; sourceTree = "<group>"; };
 		EEB896222A51A4B7009A7960 /* Poppins-Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Poppins-Bold.ttf"; sourceTree = "<group>"; };
 		EEB896232A51A4B7009A7960 /* Poppins-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Poppins-Regular.ttf"; sourceTree = "<group>"; };
 		EEB896282A51A554009A7960 /* UIFont+Style.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIFont+Style.swift"; sourceTree = "<group>"; };
@@ -102,6 +112,34 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		EE049A6F2A5EF72900B32D77 /* Home */ = {
+			isa = PBXGroup;
+			children = (
+				EE218A2D2A62AA09008AD497 /* Models */,
+				EE19AEED2A62A537001F70D3 /* Views */,
+				EE049A702A5EF74A00B32D77 /* HomeView.swift */,
+			);
+			path = Home;
+			sourceTree = "<group>";
+		};
+		EE19AEED2A62A537001F70D3 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				EE19AEEE2A62A5C3001F70D3 /* DishesView.swift */,
+				EE53BAB52A62C3BA0054EE89 /* RecipesView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		EE218A2D2A62AA09008AD497 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				EE19AEEB2A62A51E001F70D3 /* Recipe.swift */,
+				EE218A2E2A62AA21008AD497 /* Dish.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
 		EE28BA922A5D7C100061FB26 /* MainTabView */ = {
 			isa = PBXGroup;
 			children = (
@@ -123,6 +161,7 @@
 			children = (
 				EED1E6B92A51CA1D00A53D52 /* Onboarding */,
 				EE28BA922A5D7C100061FB26 /* MainTabView */,
+				EE049A6F2A5EF72900B32D77 /* Home */,
 			);
 			path = Modules;
 			sourceTree = "<group>";
@@ -413,17 +452,22 @@
 			buildActionMask = 2147483647;
 			files = (
 				EEB896292A51A554009A7960 /* UIFont+Style.swift in Sources */,
+				EE53BAB62A62C3BA0054EE89 /* RecipesView.swift in Sources */,
 				EEF154A42A51937B007A3641 /* UIImage.Generated.swift in Sources */,
+				EE049A712A5EF74A00B32D77 /* HomeView.swift in Sources */,
+				EE19AEEC2A62A51E001F70D3 /* Recipe.swift in Sources */,
 				EEF154BA2A519A8D007A3641 /* Strings+Generated.swift in Sources */,
 				EEF154BC2A519A98007A3641 /* UIColors.Generated.swift in Sources */,
 				EEF680572A50238B00F43C4F /* Food_Recipe_SwiftUiApp.swift in Sources */,
 				EE28BA942A5D7C310061FB26 /* MainTabView.swift in Sources */,
+				EE19AEEF2A62A5C3001F70D3 /* DishesView.swift in Sources */,
 				EED1E6BB2A51CA3100A53D52 /* SplashView.swift in Sources */,
 				EE28BA972A5D94C90061FB26 /* TabBarCurveShape.swift in Sources */,
 				EE41EF9B2A545B11007EF832 /* LoginRegisterView.swift in Sources */,
 				EE0418A72A56D266000151A0 /* TextField+.swift in Sources */,
 				EE41EF982A5453C9007EF832 /* Button+.swift in Sources */,
 				EEF9A3642A5460E2007A9E64 /* LoginRegisterViewModel.swift in Sources */,
+				EE218A2F2A62AA21008AD497 /* Dish.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

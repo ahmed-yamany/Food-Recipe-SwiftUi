@@ -18,9 +18,7 @@ struct MainTabView: View {
     }
     var body: some View {
             TabView(selection: $selectedTab) {
-                Text("home")
-                    .background(.blue)
-                    .frame(maxWidth: .infinity, maxHeight: .infinity)
+                HomeView()
                     .tag(MainTabViewTabs.home)
                 Text("Saved")
                     .frame(maxWidth: .infinity, maxHeight: .infinity)

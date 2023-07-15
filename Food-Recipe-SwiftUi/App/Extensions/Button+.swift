@@ -14,6 +14,8 @@ public enum ButtonStyle {
    case primarySmall
    case secondary
    case socialMedia
+    case filter
+
    // MARK: - Button Background Color
    fileprivate var buttonBackgroundColor: Color {
        switch self {
@@ -25,6 +27,9 @@ public enum ButtonStyle {
            return .clear
        case .socialMedia:
            return .background
+       case .filter:
+           return .primary
+
        }
    }
    // MARK: - Button Tint Color
@@ -38,6 +43,8 @@ public enum ButtonStyle {
            return .secondary
        case .socialMedia:
            return .clear
+       case .filter:
+           return .primaryButtonTitle
        }
    }
    // MARK: - Button Font
@@ -51,6 +58,8 @@ public enum ButtonStyle {
             return .smallBold
         case .socialMedia:
             return .mediumBold
+        case .filter:
+            return .normalRegular
         }
     }
     // MARK: - Button Width
@@ -64,6 +73,8 @@ public enum ButtonStyle {
             return .nan
         case .socialMedia:
             return  44
+        case .filter:
+            return 44
         }
     }
     // MARK: - Button Height
@@ -77,6 +88,8 @@ public enum ButtonStyle {
             return 16
         case .socialMedia:
             return  44
+        case .filter:
+            return 44
         }
     }
     // MARK: - Button Alignment
@@ -90,6 +103,8 @@ public enum ButtonStyle {
             return .leading
         case .socialMedia:
             return  .center
+        case .filter:
+            return .center
         }
     }
 }
